@@ -129,6 +129,13 @@ article{
     border-radius: 8px;
 }
 
+
+#video p{
+    padding: 10px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
 article h2{
     color: var(--destaque);
     margin-bottom: 20px;
