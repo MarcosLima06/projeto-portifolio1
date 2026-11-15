@@ -17,6 +17,22 @@
 }
 
 
+
+
+/* Tema claro - visual profissional */
+
+body:not(.escuro) {
+    --fundo-principal: #e8eef5;
+    --texto: #243247;
+    --texto-inverso: #ffffff;
+    --destaque: #087fba;
+    --destaque-inverso: #d4e9f7;
+    --fundo-card: #f7f9fc;
+}
+
+
+
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5em;
@@ -445,3 +461,10 @@ footer{
 
 
 
+
+/* Melhorar a leitura no tema claro */
+
+body:not(.escuro) #formacao-conteiner .instituicao {
+    color: #075985;
+    font-weight: bold;
+}
