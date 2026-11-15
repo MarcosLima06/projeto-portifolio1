@@ -468,3 +468,27 @@ body:not(.escuro) #formacao-conteiner .instituicao {
     color: #075985;
     font-weight: bold;
 }
+
+
+
+/* Cores das barras de habilidades */
+
+#skill-conteiner .barra {
+    background-color: #dbe5f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#skill-conteiner .progresso {
+    height: 100%;
+    min-height: 8px;
+    background: linear-gradient(90deg, #0284c7, #00c6ff);
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+/* Fundo das barras no tema escuro */
+
+body.escuro #skill-conteiner .barra {
+    background-color: #263750;
+}
